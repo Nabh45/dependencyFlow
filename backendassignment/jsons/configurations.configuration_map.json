@@ -1,0 +1,775 @@
+[{
+  "_id": "511c9d7c-3229-11ee-be56-0242ac120002",
+  "category_id": "a9f6febc-31f3-4ee1-b02b-49962d5ce716",
+  "environments": [
+    "765fe359-cca1-460c-9b98-f48b5ceac791"
+  ],
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "is_deleted": false,
+  "is_enabled": true,
+  "is_sandbox_config": true,
+  "name": "ASSOCIATE_APP_ROLE_CONFIG#1",
+  "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
+  "properties": {
+    "type": "",
+    "data": "[{\"key\":\"roleConfig\",\"value\":\"1234\",\"isSensitive\":false},{\"key\":\"roles_table\",\"value\":\"ADMIN\",\"isSensitive\":false}]"
+  },
+  "section_id": "530bbb43-6a1a-45e1-8c99-fa479917c788",
+  "sub_features": [
+    "c5a54083-bdbe-447b-88eb-d6a97238f316"
+  ],
+  "updated_at": 1695972576,
+  "updated_by": "System"
+},
+{
+  "_id": "627ca85f-6a96-4c5c-9766-46ff94ff0e50",
+  "category_id": "55d3391b-0bd3-4e35-9ede-879dd3f95143",
+  "environments": [
+    "765fe359-cca1-460c-9b98-f48b5ceac791"
+  ],
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "is_deleted": false,
+  "is_enabled": true,
+  "is_sandbox_config": true,
+  "name": "ONBOARDING_CONFIG#1",
+  "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
+  "properties": {
+    "type": "",
+    "data": "[{\"key\":\"page_url\",\"value\":\"https://app.thrivestackdemo.live/onboarding\",\"isSensitive\":false}]"
+  },
+  "section_id": "9672dabf-d3ae-454a-a9e1-ec3736f5d37f",
+  "sub_features": [
+    "819a0d2e-ba1e-4bbc-8ac8-ec02b8a8186f"
+  ],
+  "updated_at": 1695972576,
+  "updated_by": "System"
+},
+{
+  "_id": "5e48dc96-3228-11ee-b7f9-522e6225a4aa",
+  "category_id": "4886c3da-49b2-490c-89aa-a73817849f7b",
+  "environments": [
+    "765fe359-cca1-460c-9b98-f48b5ceac791"
+  ],
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "is_deleted": false,
+  "is_enabled": true,
+  "is_sandbox_config": true,
+  "name": "SURGE_PROTECT_USER_SIGNUP_CONFIG#1",
+  "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
+  "properties": {
+    "type": "",
+    "data": "[{\"key\":\"allowed_new_user_count\",\"value\":\"100\",\"isSensitive\":false},{\"key\":\"customize_email_template_signature\",\"value\":\"admin@thrivestack.com\",\"isSensitive\":false}]"
+  },
+  "section_id": "3ba31014-a605-4ebb-bbc1-46c205ff4207",
+  "sub_features": [
+    "4ee72718-cd73-4086-80ae-8844504b7602"
+  ],
+  "updated_at": 1695969696,
+  "updated_by": "System"
+},
+{
+  "_id": "db2e907c-32bc-11ee-be56-0242ac120002",
+  "category_id": "6a405218-db66-4c21-8fb0-89fc38558591",
+  "environments": [
+    "765fe359-cca1-460c-9b98-f48b5ceac791"
+  ],
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "is_deleted": false,
+  "is_enabled": true,
+  "is_sandbox_config": true,
+  "name": "SIGNUP_PAGE_CONFIG#1",
+  "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
+  "properties": {
+    "type": "",
+    "data": "[{\"key\":\"signup_page\",\"value\":\"\",\"isSensitive\":false},{\"key\":\"signup_template\",\"value\":\"https://i.ibb.co/LrMHGSf/signup-template.png\",\"isSensitive\":false}]"
+  },
+  "section_id": "77bc9368-0dd4-4c5f-b346-a07d28b9d7c0",
+  "sub_features": [
+    "960c5dfa-701d-4f0a-96e2-4bc51c77728b"
+  ],
+  "updated_at": 1695972576,
+  "updated_by": "System"
+},
+{
+  "_id": "74e4b648-8fa7-42f5-9ecb-384ca210e61d",
+  "category_id": "4dd61b49-c5f2-4ea2-8683-823e04f41564",
+  "environments": [
+    "765fe359-cca1-460c-9b98-f48b5ceac791"
+  ],
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "is_deleted": false,
+  "is_enabled": true,
+  "is_sandbox_config": true,
+  "name": "ASSOCIATE_APP_PRICING_CONFIG#1",
+  "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
+  "properties": {
+    "type": "",
+    "data": "[{\"key\":\"pricing\",\"value\":\"1234\",\"isSensitive\":false},{\"key\":\"pricing_table\",\"value\":\"Free Trial\",\"isSensitive\":false}]"
+  },
+  "section_id": "69308ef0-26eb-4bf2-bd73-e95dcf7e4b63",
+  "sub_features": [
+    "af707551-64e7-4f06-908a-8e20a7810fe1"
+  ],
+  "updated_at": 1695972576,
+  "updated_by": "System"
+},
+{
+  "_id": "74e4b648-8fa7-42f5-9ecb-384ca210e61d",
+  "category_id": "4dd61b49-c5f2-4ea2-8683-823e04f41564",
+  "environments": [
+    "765fe359-cca1-460c-9b98-f48b5ceac791"
+  ],
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "is_deleted": false,
+  "is_enabled": true,
+  "is_sandbox_config": true,
+  "name": "PRICING_CONFIG#1",
+  "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
+  "properties": {
+    "type": "",
+    "data": "[{\"key\":\"pricing\",\"value\":\"1234\",\"isSensitive\":false},{\"key\":\"pricing_table\",\"value\":\"Free Trial\",\"isSensitive\":false}]"
+  },
+  "section_id": "7ae72d51-c27a-4c58-a6b0-9ffca949faa3",
+  "sub_features": [
+    "af707551-64e7-4f06-908a-8e20a7810fe1"
+  ],
+  "updated_at": 1695972576,
+  "updated_by": "System"
+},
+{
+  "_id": "8c44cc44-32ba-11ee-be56-0242ac120002",
+  "category_id": "a7257b91-b965-4702-9005-174ec097c280",
+  "environments": [
+    "765fe359-cca1-460c-9b98-f48b5ceac791"
+  ],
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "is_deleted": false,
+  "is_enabled": true,
+  "is_sandbox_config": true,
+  "name": "CREATE_TENANT_CONFIRM_ACKNOWLEDGE_CONFIG#1",
+  "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
+  "properties": {
+    "type": "",
+    "data": "[{\"key\":\"endpoint_url\",\"value\":\"\",\"isSensitive\":false},{\"key\":\"aws_region\",\"value\":\"\",\"isSensitive\":false},{\"key\":\"queue_url\",\"value\":\"\",\"isSensitive\":false}]"
+  },
+  "section_id": "e5293290-0256-472e-9e27-cf637261d09a",
+  "sub_features": [
+    "0621de3e-6ccc-4275-9fe5-0228c792a0ab"
+  ],
+  "updated_at": 1695972576,
+  "updated_by": "System"
+},
+{
+  "_id": "dd73560e-32be-11ee-be56-0242ac120002",
+  "category_id": "a1345e60-31d6-11ee-be56-0242ac120002",
+  "environments": [
+    "765fe359-cca1-460c-9b98-f48b5ceac791"
+  ],
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "is_deleted": false,
+  "is_enabled": true,
+  "is_sandbox_config": true,
+  "name": "STORE_LEADS_CONFIG#1",
+  "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
+  "properties": {
+    "type": "HUBSPOT",
+    "data": "[{\"key\":\"api_key\",\"value\":null,\"isSensitive\":true},{\"key\":\"secret_path\",\"value\":\"saas-dev-builder-secrets-manager\",\"isSensitive\":false},{\"key\":\"owner_id\",\"value\":null,\"isSensitive\":false}]"
+  },
+  "section_id": "9c7dc604-2c7c-44ac-a1b5-116ed82e2809",
+  "sub_features": [
+    "bb1c51b5-150b-4af3-98da-1db9f405bcaa"
+  ],
+  "updated_at": 1695972576,
+  "updated_by": "System"
+},
+{
+  "_id": "69a5524d-92a8-4203-bd01-7ba93a5f4ae9",
+  "category_id": "bea6ec1a-3872-4415-918b-561c2a5aff4c",
+  "environments": [
+    "765fe359-cca1-460c-9b98-f48b5ceac791"
+  ],
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "is_deleted": false,
+  "is_enabled": true,
+  "is_sandbox_config": true,
+  "name": "ENRICH_USER_CONFIG#1",
+  "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
+  "properties": {
+    "type": "PEOPLE_DATA_LABS",
+    "data": "[{\"key\":\"api_key\",\"value\":null,\"isSensitive\":true},{\"key\":\"source\",\"value\":null,\"isSensitive\":false},{\"key\":\"integration\",\"value\":\"PEOPLE_DATA_LABS\",\"isSensitive\":false}]"
+  },
+  "section_id": "5490e22c-00c2-492e-8ba4-38ea534fe68d",
+  "sub_features": [
+    "d72f5e48-415a-4a49-845a-34768830e7d2"
+  ],
+  "updated_at": 1695969696,
+  "updated_by": "System"
+},
+{
+  "_id": "eb7e3b3d-b9a4-4f3d-9a94-7963afd713b5",
+  "category_id": "466e9a5c-dbe7-4c48-8fe8-f3b1eb84d0db",
+  "environments": [
+    "765fe359-cca1-460c-9b98-f48b5ceac791"
+  ],
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "is_deleted": false,
+  "is_enabled": true,
+  "is_sandbox_config": true,
+  "name": "CUSTOMER_NOTIFY_CONFIG#1",
+  "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
+  "properties": {
+    "type": "SENDGRID",
+    "data": "[{\"key\":\"api_key\",\"value\":null,\"isSensitive\":true},{\"key\":\"cta_url\",\"value\":null,\"isSensitive\":false},{\"key\":\"integration\",\"value\":\"SENDGRID\",\"isSensitive\":false}]"
+  },
+  "section_id": "5904a698-a6a4-4ec8-a2e0-1334ac506bdb",
+  "sub_features": [
+    "d984b6bc-1989-4ceb-bf9b-d2caaa55937b"
+  ],
+  "updated_at": 1695972576,
+  "updated_by": "System"
+},
+{
+  "_id": "5ebbe410-328d-11ee-be56-0242ac120002",
+  "category_id": "bea6ec1a-3872-4415-918b-561c2a5aff4c",
+  "environments": [
+    "765fe359-cca1-460c-9b98-f48b5ceac791"
+  ],
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "is_deleted": false,
+  "is_enabled": true,
+  "is_sandbox_config": true,
+  "name": "ENRICH_ORG_CONFIG#1",
+  "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
+  "properties": {
+    "type": "PEOPLE_DATA_LABS",
+    "data": "[{\"key\":\"api_key\",\"value\":null,\"isSensitive\":true},{\"key\":\"source\",\"value\":null,\"isSensitive\":false},{\"key\":\"integration\",\"value\":\"PEOPLE_DATA_LABS\",\"isSensitive\":false}]"
+  },
+  "section_id": "ded32b46-bb4e-43f4-829c-e70c6ca5c42b",
+  "sub_features": [
+    "99604c72-8637-4248-ae2f-61100ec12f5e"
+  ],
+  "updated_at": 1695969696,
+  "updated_by": "System"
+},
+{
+  "_id": "c8085696-322a-11ee-be56-0242ac120002",
+  "category_id": "8dfeb486-13f4-4eef-bfcd-8c491ed86df4",
+  "environments": [
+    "765fe359-cca1-460c-9b98-f48b5ceac791"
+  ],
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "is_deleted": false,
+  "is_enabled": true,
+  "is_sandbox_config": true,
+  "name": "SIGNUP_IDP_CONFIG#1",
+  "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
+  "properties": {
+    "type": "AUTH0",
+    "data": "[{\"key\":\"client_id\",\"value\":null,\"isSensitive\":true},{\"key\":\"api_origin\",\"value\":\"https://thrivestack.com\",\"isSensitive\":false},{\"key\":\"app_origin\",\"value\":\"https://thrivestack.com\",\"isSensitive\":false},{\"key\":\"idp_tenant_name\",\"value\":\"Thrive\",\"isSensitive\":false},{\"key\":\"client_secret\",\"value\":null,\"isSensitive\":true},{\"key\":\"secret_path\",\"value\":\"saas-dev-builder-secrets-manager\",\"isSensitive\":false},{\"key\":\"domain_url\",\"value\":\"dev-gequbn3bq1ty0dkm.us.auth0.com\",\"isSensitive\":false},{\"key\":\"integration\",\"value\":\"AUTH0\",\"isSensitive\":false}]"
+  },
+  "section_id": "dfc0721b-1141-4044-88a5-ec9d0bd79d4d",
+  "sub_features": [
+    "35245bcf-4960-42cb-931f-cf9d4fdf111e"
+  ],
+  "updated_at": 1695972576,
+  "updated_by": "System"
+},
+{
+  "_id": "c0aca856-32bc-11ee-be56-0242ac120002",
+  "category_id": "a7257b91-b965-4702-9005-174ec097c280",
+  "environments": [
+    "765fe359-cca1-460c-9b98-f48b5ceac791"
+  ],
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "is_deleted": false,
+  "is_enabled": true,
+  "is_sandbox_config": true,
+  "name": "CREATE_TENANT_W_W_S_CONFIG#1",
+  "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
+  "properties": {
+    "type": "AWS_SQS",
+    "data": "[{\"key\":\"endpoint_url\",\"value\":\"aws.com\",\"isSensitive\":false},{\"key\":\"aws_region\",\"value\":\"ap-south-1\",\"isSensitive\":false},{\"key\":\"access_key_id\",\"value\":null,\"isSensitive\":true},{\"key\":\"secret_access_key\",\"value\":null,\"isSensitive\":true},{\"key\":\"secret_path\",\"value\":\"saas-dev-builder-secrets-manager\",\"isSensitive\":false},{\"key\":\"queue_url\",\"value\":\"https://sqs.ap-south-1.amazonaws.com/831467024484/saas-dev-sqs-queue\",\"isSensitive\":false},{\"key\":\"delay_seconds\",\"value\":10,\"isSensitive\":false},{\"key\":\"payload\",\"value\":null,\"isSensitive\":false},{\"key\":\"integration\",\"value\":\"AWS_SQS\",\"isSensitive\":false}]"
+  },
+  "section_id": "d35f2b69-36a0-4f48-a851-2705159237b1",
+  "sub_features": [
+    "29805f1b-63ac-4bbd-80e1-e905355f6cef"
+  ],
+  "updated_at": 1695972576,
+  "updated_by": "System"
+},
+{
+  "_id": "8d3642bc-4228-4f84-ab2e-b8ce0eca7ff6",
+  "category_id": "8dfeb486-13f4-4eef-bfcd-8c491ed86df4",
+  "environments": [
+    "sandbox"
+  ],
+  "features": [
+    "signup_workflow"
+  ],
+  "is_deleted": false,
+  "is_enabled": true,
+  "is_sandbox_config": false,
+  "name": "AuthIdp Config",
+  "product_id": "d6027d52-5e8e-11ee-ac87-323063306243",
+  "properties": {
+    "type": "AUTH0",
+    "data": "[{\"key\":\"integration\",\"value\":null,\"isSensitive\":false},{\"key\":\"idp_tenant_name\",\"value\":null,\"isSensitive\":false},{\"key\":\"domain_url\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_id\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_secret\",\"value\":null,\"isSensitive\":true},{\"key\":\"app_origin\",\"value\":null,\"isSensitive\":false},{\"key\":\"api_origin\",\"value\":null,\"isSensitive\":false}]"
+  },
+  "section_id": "dfc0721b-1141-4044-88a5-ec9d0bd79d4d",
+  "sub_features": [
+    "SIGNUP_IDP"
+  ],
+  "updated_at": 1695969154,
+  "updated_by": "System"
+},
+{
+  "_id": "592408f2-3229-11ee-be56-0242ac120002",
+  "category_id": "2bbe7101-9144-41fd-b2ca-584b75446c7c",
+  "environments": [
+    "765fe359-cca1-460c-9b98-f48b5ceac791"
+  ],
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "is_deleted": false,
+  "is_enabled": true,
+  "is_sandbox_config": true,
+  "name": "USER_REDIRECT_CONFIG#1",
+  "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
+  "properties": {
+    "type": "",
+    "data": "[{\"key\":\"redirect_url\",\"value\":\"https://app.thrivestackdemo.live\",\"isSensitive\":false}]"
+  },
+  "section_id": "3d5ced0a-1936-4720-9ead-8331e896e90a",
+  "sub_features": [
+    "84b76bfd-fcda-435d-b8eb-a4346785cd89"
+  ],
+  "updated_at": 1695969696,
+  "updated_by": "System"
+},
+{
+  "_id": "bc52ddc6-4da0-43a5-a0b9-99b30bf325f1",
+  "category_id": "6a405218-db66-4c21-8fb0-89fc38558591",
+  "environments": [
+    "765fe359-cca1-460c-9b98-f48b5ceac791"
+  ],
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "is_deleted": false,
+  "is_enabled": true,
+  "is_sandbox_config": true,
+  "name": "ERROR_PAGE_CONFIG#1",
+  "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
+  "properties": {
+    "type": "",
+    "data": "[{\"key\":\"error_page_template\",\"value\":\"https://i.ibb.co/whfQcDF/error-template.png\",\"isSensitive\":false}]"
+  },
+  "section_id": "f1884314-7869-4c25-85f9-28409e73d891",
+  "sub_features": [
+    "a4caf02a-a370-471c-b926-bc2b08c18f4f"
+  ],
+  "updated_at": 1695969696,
+  "updated_by": "System"
+},
+{
+  "_id": "b897cdec-32be-11ee-be56-0242ac120002",
+  "category_id": "c987bcdd-e700-4d58-babb-b985bdf60630",
+  "environments": [
+    "765fe359-cca1-460c-9b98-f48b5ceac791"
+  ],
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "is_deleted": false,
+  "is_enabled": true,
+  "is_sandbox_config": true,
+  "name": "HTTP_TRIGGER_CONFIG#1",
+  "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
+  "properties": {
+    "type": "",
+    "data": "[{\"key\":\"trigger_type\",\"value\":\"\",\"isSensitive\":false},{\"key\":\"sandbox_url\",\"value\":\"\",\"isSensitive\":false}]"
+  },
+  "section_id": "062ecaa2-fe6d-4d75-a719-b7af12f99990",
+  "sub_features": [
+    "546f50dc-f37f-4231-ac59-4028c603fa43"
+  ],
+  "updated_at": 1695972576,
+  "updated_by": "System"
+},
+{
+  "_id": "4375373c-40df-11ee-be56-0242ac120002",
+  "category_id": "c987bcdd-e700-4d58-babb-b985bdf60630",
+  "environments": [
+    "765fe359-cca1-460c-9b98-f48b5ceac791"
+  ],
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "is_deleted": false,
+  "is_enabled": true,
+  "is_sandbox_config": true,
+  "name": "HTTP_TRIGGER_CONFIG#1",
+  "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
+  "properties": {
+    "type": "",
+    "data": "[{\"key\":\"domainName\",\"value\":\"https://auth.thrivestackdemo.live\",\"isSensitive\":false},{\"key\":\"hostLabelForVerification\",\"value\":\"\",\"isSensitive\":false},{\"key\":\"destinationTargetForVerification\",\"value\":\"\",\"isSensitive\":false},{\"key\":\"hostLabelForDestination\",\"value\":\"\",\"isSensitive\":false},{\"key\":\"destinationTargetForDestination\",\"value\":\"\",\"isSensitive\":false},{\"key\":\"path\",\"value\":\"\",\"isSensitive\":false},{\"key\":\"payload\",\"value\":\"\",\"isSensitive\":false}]"
+  },
+  "section_id": "b53e1d11-1593-43c7-99fc-5b4a35f1b939",
+  "sub_features": [
+    "546f50dc-f37f-4231-ac59-4028c603fa43"
+  ],
+  "updated_at": 1695972576,
+  "updated_by": "System"
+},
+{
+  "_id": "6333232c-40da-11ee-be56-0242ac120002",
+  "category_id": "6a405218-db66-4c21-8fb0-89fc38558591",
+  "environments": [
+    "765fe359-cca1-460c-9b98-f48b5ceac791"
+  ],
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "is_deleted": false,
+  "is_enabled": true,
+  "is_sandbox_config": true,
+  "name": "ERROR_PAGE_CONFIG#1",
+  "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
+  "properties": {
+    "type": "",
+    "data": "[{\"key\":\"messageTitle\",\"value\":\"\",\"isSensitive\":false},{\"key\":\"subtitle\",\"value\":\"\",\"isSensitive\":false},{\"key\":\"buttonText\",\"value\":\"\",\"isSensitive\":false}]"
+  },
+  "section_id": "8bf10f75-d3f6-410d-b241-b22cbf183b7c",
+  "sub_features": [
+    "a4caf02a-a370-471c-b926-bc2b08c18f4f"
+  ],
+  "updated_at": 1695969696,
+  "updated_by": "System"
+},
+{
+  "_id": "f433eaff-f978-4b00-9c2a-2e6457cd605a",
+  "category_id": "bea6ec1a-3872-4415-918b-561c2a5aff4c",
+  "environments": [
+    "sandbox"
+  ],
+  "features": [
+    "signup_workflow"
+  ],
+  "is_deleted": false,
+  "is_enabled": true,
+  "is_sandbox_config": false,
+  "name": "1",
+  "product_id": "c06ccf25-5e99-11ee-ac87-323063306243",
+  "properties": {
+    "type": "PEOPLE_DATA_LABS",
+    "data": "[{\"key\":\"integration\",\"value\":\"PEOPLE_DATA_LABS\",\"isSensitive\":false},{\"key\":\"source\",\"value\":\"\",\"isSensitive\":false},{\"key\":\"attributes\",\"value\":[],\"isSensitive\":false},{\"key\":\"api_key\",\"value\":\"f433eaff-f978-4b00-9c2a-2e6457cd605a_api_key\",\"isSensitive\":true}]"
+  },
+  "section_id": "5490e22c-00c2-492e-8ba4-38ea534fe68d",
+  "sub_features": [
+    "ENRICH_USER"
+  ],
+  "updated_at": 1695973146,
+  "updated_by": "System"
+},
+{
+  "_id": "21a4bb88-3229-11ee-be56-0242ac120002",
+  "category_id": "4886c3da-49b2-490c-89aa-a73817849f7b",
+  "environments": [
+    "765fe359-cca1-460c-9b98-f48b5ceac791"
+  ],
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "is_deleted": false,
+  "is_enabled": true,
+  "is_sandbox_config": true,
+  "name": "SURGE_PROTECT_TENANT_CONFIG#1",
+  "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
+  "properties": {
+    "type": "",
+    "data": "[{\"key\":\"allowed_new_tenant_count\",\"value\":\"100\",\"isSensitive\":false},{\"key\":\"customize_email_template_signature\",\"value\":\"admin@thrivestack.com\",\"isSensitive\":false}]"
+  },
+  "section_id": "e21aead5-430c-4a78-b6e6-70153ef21b35",
+  "sub_features": [
+    "33a34702-6a54-4044-95e3-2cbfed607683"
+  ],
+  "updated_at": 1695972576,
+  "updated_by": "System"
+},
+{
+  "_id": "2f5cfd8f-b92c-40b6-90b9-a963450f77cd",
+  "category_id": "8dfeb486-13f4-4eef-bfcd-8c491ed86df4",
+  "environments": [
+    "sandbox"
+  ],
+  "features": [
+    "signup_workflow"
+  ],
+  "is_deleted": false,
+  "is_enabled": true,
+  "is_sandbox_config": false,
+  "name": "test",
+  "product_id": "1a5248b8-5e9a-11ee-ac87-323063306243",
+  "properties": {
+    "type": "AUTH0",
+    "data": "[{\"key\":\"integration\",\"value\":null,\"isSensitive\":false},{\"key\":\"idp_tenant_name\",\"value\":null,\"isSensitive\":false},{\"key\":\"domain_url\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_id\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_secret\",\"value\":null,\"isSensitive\":true},{\"key\":\"app_origin\",\"value\":null,\"isSensitive\":false},{\"key\":\"api_origin\",\"value\":null,\"isSensitive\":false}]"
+  },
+  "section_id": "dfc0721b-1141-4044-88a5-ec9d0bd79d4d",
+  "sub_features": [
+    "SIGNUP_IDP"
+  ],
+  "updated_at": 1695972864,
+  "updated_by": "System"
+},
+{
+  "_id": "96fdee9a-dd4a-456a-a21d-d59b4667452b",
+  "category_id": "8dfeb486-13f4-4eef-bfcd-8c491ed86df4",
+  "environments": [
+    "sandbox"
+  ],
+  "features": [
+    "signup_workflow"
+  ],
+  "is_deleted": false,
+  "is_enabled": true,
+  "is_sandbox_config": false,
+  "name": "config_1",
+  "product_id": "1a5248b8-5e9a-11ee-ac87-323063306243",
+  "properties": {
+    "type": "AUTH0",
+    "data": "[{\"key\":\"integration\",\"value\":null,\"isSensitive\":false},{\"key\":\"idp_tenant_name\",\"value\":1,\"isSensitive\":false},{\"key\":\"domain_url\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_id\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_secret\",\"value\":null,\"isSensitive\":true},{\"key\":\"app_origin\",\"value\":null,\"isSensitive\":false},{\"key\":\"api_origin\",\"value\":null,\"isSensitive\":false}]"
+  },
+  "section_id": "dfc0721b-1141-4044-88a5-ec9d0bd79d4d",
+  "sub_features": [
+    "SIGNUP_IDP"
+  ],
+  "updated_at": 1695974264,
+  "updated_by": "System"
+},
+{
+  "_id": "a1c312e6-edc5-45e0-8f67-e1c34e6958ec",
+  "category_id": "8dfeb486-13f4-4eef-bfcd-8c491ed86df4",
+  "environments": [
+    "sandbox"
+  ],
+  "features": [
+    "signup_workflow"
+  ],
+  "is_deleted": false,
+  "is_enabled": true,
+  "is_sandbox_config": false,
+  "name": "test1",
+  "product_id": "020a52e5-5e8d-11ee-ac87-323063306243",
+  "properties": {
+    "type": "AUTH0",
+    "data": "[{\"key\":\"integration\",\"value\":null,\"isSensitive\":false},{\"key\":\"idp_tenant_name\",\"value\":1,\"isSensitive\":false},{\"key\":\"domain_url\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_id\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_secret\",\"value\":null,\"isSensitive\":true},{\"key\":\"app_origin\",\"value\":null,\"isSensitive\":false},{\"key\":\"api_origin\",\"value\":null,\"isSensitive\":false}]"
+  },
+  "section_id": "dfc0721b-1141-4044-88a5-ec9d0bd79d4d",
+  "sub_features": [
+    "SIGNUP_IDP"
+  ],
+  "updated_at": 1695974418,
+  "updated_by": "System"
+},
+{
+  "_id": "ab30810a-f270-4578-ba1c-e1e0d5542b5b",
+  "category_id": "8dfeb486-13f4-4eef-bfcd-8c491ed86df4",
+  "environments": [
+    "sandbox"
+  ],
+  "features": [
+    "signup_workflow"
+  ],
+  "is_deleted": false,
+  "is_enabled": true,
+  "is_sandbox_config": false,
+  "name": "testi",
+  "product_id": "020a52e5-5e8d-11ee-ac87-323063306243",
+  "properties": {
+    "type": "AUTH0",
+    "data": "[{\"key\":\"integration\",\"value\":null,\"isSensitive\":false},{\"key\":\"idp_tenant_name\",\"value\":1,\"isSensitive\":false},{\"key\":\"domain_url\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_id\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_secret\",\"value\":null,\"isSensitive\":true},{\"key\":\"app_origin\",\"value\":null,\"isSensitive\":false},{\"key\":\"api_origin\",\"value\":null,\"isSensitive\":false}]"
+  },
+  "section_id": "dfc0721b-1141-4044-88a5-ec9d0bd79d4d",
+  "sub_features": [
+    "SIGNUP_IDP"
+  ],
+  "updated_at": 1695974715,
+  "updated_by": "System"
+},
+{
+  "_id": "bada77a0-f2a7-4ba9-b267-94c0ef49f054",
+  "category_id": "8dfeb486-13f4-4eef-bfcd-8c491ed86df4",
+  "environments": [
+    "sandbox"
+  ],
+  "features": [
+    "signup_workflow"
+  ],
+  "is_deleted": false,
+  "is_enabled": true,
+  "is_sandbox_config": false,
+  "name": "t",
+  "product_id": "020a52e5-5e8d-11ee-ac87-323063306243",
+  "properties": {
+    "type": "AUTH0",
+    "data": "[{\"key\":\"integration\",\"value\":null,\"isSensitive\":false},{\"key\":\"idp_tenant_name\",\"value\":1,\"isSensitive\":false},{\"key\":\"domain_url\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_id\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_secret\",\"value\":null,\"isSensitive\":true},{\"key\":\"app_origin\",\"value\":null,\"isSensitive\":false},{\"key\":\"api_origin\",\"value\":null,\"isSensitive\":false}]"
+  },
+  "section_id": "dfc0721b-1141-4044-88a5-ec9d0bd79d4d",
+  "sub_features": [
+    "SIGNUP_IDP"
+  ],
+  "updated_at": 1695977000,
+  "updated_by": "System"
+},
+{
+  "_id": "",
+  "category_id": "",
+  "environments": [
+    "sandbox"
+  ],
+  "features": [
+    "signup_workflow"
+  ],
+  "is_deleted": false,
+  "is_enabled": true,
+  "is_sandbox_config": false,
+  "name": "",
+  "product_id": "cecd52b4-5ea5-11ee-ac87-323063306243",
+  "properties": {
+    "type": "",
+    "data": "[{\"key\":\"page_url\",\"value\":\"https://acme.com\",\"isSensitive\":false},{\"key\":\"payload\",\"value\":[{\"isDisabled\":true,\"key\":\"userId\",\"value\":\"{{workflow.userId}}\"},{\"isDisabled\":true,\"key\":\"workflowId\",\"value\":\"{{workflow.workflowID}}\"},{\"isDisabled\":true,\"key\":\"runtimeId\",\"value\":\"{{workflow.runtimeId}}\"},{\"isDisabled\":true,\"key\":\"returnUrl\",\"value\":\"{{workflow.returnUrl}}\"},{\"isDisabled\":true,\"key\":\"env\",\"value\":\"{{workflow.env}}\"}],\"isSensitive\":false}]"
+  },
+  "section_id": "",
+  "sub_features": [
+    "ONBOARDING"
+  ],
+  "updated_at": 1695978050,
+  "updated_by": "System"
+},
+{
+  "_id": "04f48496-1991-4b42-b446-65099e8bde6e",
+  "category_id": "8dfeb486-13f4-4eef-bfcd-8c491ed86df4",
+  "environments": [
+    "sandbox"
+  ],
+  "features": [
+    "signup_workflow"
+  ],
+  "is_deleted": false,
+  "is_enabled": true,
+  "is_sandbox_config": false,
+  "name": "1",
+  "product_id": "",
+  "properties": {
+    "type": "AUTH0",
+    "data": "[{\"key\":\"integration\",\"value\":null,\"isSensitive\":false},{\"key\":\"idp_tenant_name\",\"value\":1,\"isSensitive\":false},{\"key\":\"domain_url\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_id\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_secret\",\"value\":null,\"isSensitive\":true},{\"key\":\"app_origin\",\"value\":1,\"isSensitive\":false},{\"key\":\"api_origin\",\"value\":1,\"isSensitive\":false}]"
+  },
+  "section_id": "dfc0721b-1141-4044-88a5-ec9d0bd79d4d",
+  "sub_features": [
+    "SIGNUP_IDP"
+  ],
+  "updated_at": 1695978522,
+  "updated_by": "System"
+},
+{
+  "_id": "b536f01a-0817-4a45-8e76-7bb2be1b41ec",
+  "category_id": "8dfeb486-13f4-4eef-bfcd-8c491ed86df4",
+  "environments": [
+    "sandbox"
+  ],
+  "features": [
+    "signup_workflow"
+  ],
+  "is_deleted": false,
+  "is_enabled": true,
+  "is_sandbox_config": false,
+  "name": "sd",
+  "product_id": "",
+  "properties": {
+    "type": "AUTH0",
+    "data": "[{\"key\":\"integration\",\"value\":null,\"isSensitive\":false},{\"key\":\"idp_tenant_name\",\"value\":1,\"isSensitive\":false},{\"key\":\"domain_url\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_id\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_secret\",\"value\":null,\"isSensitive\":true},{\"key\":\"app_origin\",\"value\":null,\"isSensitive\":false},{\"key\":\"api_origin\",\"value\":null,\"isSensitive\":false}]"
+  },
+  "section_id": "dfc0721b-1141-4044-88a5-ec9d0bd79d4d",
+  "sub_features": [
+    "SIGNUP_IDP"
+  ],
+  "updated_at": 1695978900,
+  "updated_by": "System"
+},
+{
+  "_id": "36fe25dd-6b00-4fac-bba5-0f86361bf259",
+  "category_id": "8dfeb486-13f4-4eef-bfcd-8c491ed86df4",
+  "environments": [
+    "sandbox"
+  ],
+  "features": [
+    "signup_workflow"
+  ],
+  "is_deleted": false,
+  "is_enabled": true,
+  "is_sandbox_config": false,
+  "name": "xx",
+  "product_id": "",
+  "properties": {
+    "type": "AUTH0",
+    "data": "[{\"key\":\"integration\",\"value\":null,\"isSensitive\":false},{\"key\":\"idp_tenant_name\",\"value\":1,\"isSensitive\":false},{\"key\":\"domain_url\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_id\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_secret\",\"value\":null,\"isSensitive\":true},{\"key\":\"app_origin\",\"value\":null,\"isSensitive\":false},{\"key\":\"api_origin\",\"value\":null,\"isSensitive\":false}]"
+  },
+  "section_id": "dfc0721b-1141-4044-88a5-ec9d0bd79d4d",
+  "sub_features": [
+    "SIGNUP_IDP"
+  ],
+  "updated_at": 1695979204,
+  "updated_by": "System"
+},
+{
+  "_id": "zzc312e6-edc5-45e0-8f67-e1c34e6958ec",
+  "category_id": "c987bcdd-e700-4d58-babb-b985bdf60630",
+  "environments": [
+    "DEV"
+  ],
+  "features": [
+    "signup_workflow"
+  ],
+  "is_deleted": false,
+  "is_enabled": true,
+  "is_sandbox_config": false,
+  "name": "url config",
+  "product_id": "",
+  "properties": {
+    "type": "",
+    "data": "[{\"key\":\"integration\",\"value\":null,\"isSensitive\":false},{\"key\":\"idp_tenant_name\",\"value\":1,\"isSensitive\":false},{\"key\":\"domain_url\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_id\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_secret\",\"value\":null,\"isSensitive\":true},{\"key\":\"app_origin\",\"value\":1,\"isSensitive\":false},{\"key\":\"api_origin\",\"value\":1,\"isSensitive\":false}]"
+  },
+  "section_id": "b53e1d11-1593-43c7-99fc-5b4a35f1b939",
+  "sub_features": [
+    "USER_REDIRECT"
+  ],
+  "updated_at": 1695979332,
+  "updated_by": "System"
+}]

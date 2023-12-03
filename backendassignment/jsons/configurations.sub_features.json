@@ -1,0 +1,264 @@
+[{
+  "_id": "af707551-64e7-4f06-908a-8e20a7810fe1",
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "name": "ASSOCIATE_APP_PRICING",
+  "sections": [
+    {
+      "name": "ASSOCIATE_APP_PRICING_CUSTOMIZE_PRICING_PLAN",
+      "id": "69308ef0-26eb-4bf2-bd73-e95dcf7e4b63"
+    },
+    {
+      "name": "PRICING_CONFIG",
+      "id": "7ae72d51-c27a-4c58-a6b0-9ffca949faa3"
+    },
+    {
+      "name": "CUSTOMIZE_PRICING_PLAN",
+      "id": "13b707ad-664a-477b-9563-db79e5de4f23"
+    },
+    {
+      "name": "DURING_TRIAL_PERIOD",
+      "id": "b4676ab6-17bf-45e8-b9f5-8395c2e177da"
+    },
+    {
+      "name": "REMINDER_28TH_DAY",
+      "id": "a0de092c-71f8-4ab8-8211-c49b29113d71"
+    },
+    {
+      "name": "PLAN_ENDS_30TH_DAY",
+      "id": "4f9fcc0f-ccf7-47f9-8508-3f78549b7ff6"
+    },
+    {
+      "name": "CLEANUP_DUNNING_30DAYS",
+      "id": "00a4cf27-5436-4b83-9516-898375ec599b"
+    },
+    {
+      "name": "NEW_PRICING_PLAN_ACTIVATED",
+      "id": "8ad89186-f99e-4d02-a5a4-7cec5cf8d599"
+    }
+  ]
+},
+{
+  "_id": "c5a54083-bdbe-447b-88eb-d6a97238f316",
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "name": "ASSOCIATE_APP_ROLE",
+  "sections": [
+    {
+      "name": "ASSOCIATE_APP_ROLE_CONFIGURATION",
+      "id": "530bbb43-6a1a-45e1-8c99-fa479917c788"
+    }
+  ]
+},
+{
+  "_id": "33a34702-6a54-4044-95e3-2cbfed607683",
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "name": "SURGE_PROTECT_TENANT",
+  "sections": [
+    {
+      "name": "SURGE_PROTECT_TENANT_WAITING_LIST_CONFIG",
+      "id": "e21aead5-430c-4a78-b6e6-70153ef21b35"
+    }
+  ]
+},
+{
+  "_id": "4ee72718-cd73-4086-80ae-8844504b7602",
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "name": "SURGE_PROTECT_USER_SIGNUP",
+  "sections": [
+    {
+      "name": "SURGE_PROTECT_USER_SIGNUP_WAITING_LIST_CONFIGURATION",
+      "id": "3ba31014-a605-4ebb-bbc1-46c205ff4207"
+    }
+  ]
+},
+{
+  "_id": "84b76bfd-fcda-435d-b8eb-a4346785cd89",
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "name": "USER_REDIRECT",
+  "sections": [
+    {
+      "name": "USER_REDIRECT_URL_SETTINGS",
+      "id": "3d5ced0a-1936-4720-9ead-8331e896e90a"
+    }
+  ]
+},
+{
+  "_id": "546f50dc-f37f-4231-ac59-4028c603fa43",
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "name": "HTTP_TRIGGER",
+  "sections": [
+    {
+      "name": "HTTP_TRIGGER_SANDBOX_SETTINGS",
+      "id": "062ecaa2-fe6d-4d75-a719-b7af12f99990"
+    },
+    {
+      "name": "HTTP_TRIGGER_CUSTOM_DOMAIN_SETTINGS",
+      "id": "b53e1d11-1593-43c7-99fc-5b4a35f1b939"
+    }
+  ]
+},
+{
+  "_id": "35245bcf-4960-42cb-931f-cf9d4fdf111e",
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "name": "SIGNUP_IDP",
+  "sections": [
+    {
+      "name": "SIGNUP_IDP_IDP_SETTINGS",
+      "id": "dfc0721b-1141-4044-88a5-ec9d0bd79d4d"
+    }
+  ]
+},
+{
+  "_id": "960c5dfa-701d-4f0a-96e2-4bc51c77728b",
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "name": "SIGNUP_PAGE",
+  "sections": [
+    {
+      "name": "SIGNUP_PAGE_SELECTED_TEMPLATE_REVIEW",
+      "id": "77bc9368-0dd4-4c5f-b346-a07d28b9d7c0"
+    }
+  ]
+},
+{
+  "_id": "a4caf02a-a370-471c-b926-bc2b08c18f4f",
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "name": "ERROR_PAGE",
+  "sections": [
+    {
+      "name": "ERROR_PAGE_SELECTED_TEMPLATE_REVIEW",
+      "id": "f1884314-7869-4c25-85f9-28409e73d891"
+    },
+    {
+      "name": "ERROR_PAGE_SELECTED_TEMPLATE_MESSAGE",
+      "id": "8bf10f75-d3f6-410d-b241-b22cbf183b7c"
+    }
+  ]
+},
+{
+  "_id": "819a0d2e-ba1e-4bbc-8ac8-ec02b8a8186f",
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "name": "ONBOARDING",
+  "sections": [
+    {
+      "name": "ONBOARDING_URL_SETTINGS",
+      "id": "9672dabf-d3ae-454a-a9e1-ec3736f5d37f"
+    }
+  ]
+},
+{
+  "_id": "d72f5e48-415a-4a49-845a-34768830e7d2",
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "name": "ENRICH_USER",
+  "sections": [
+    {
+      "name": "ENRICH_USER_CONFIGURATION",
+      "id": "5490e22c-00c2-492e-8ba4-38ea534fe68d"
+    }
+  ]
+},
+{
+  "_id": "99604c72-8637-4248-ae2f-61100ec12f5e",
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "name": "ENRICH_ORG",
+  "sections": [
+    {
+      "name": "ENRICH_ORG_CONFIGURATION",
+      "id": "ded32b46-bb4e-43f4-829c-e70c6ca5c42b"
+    }
+  ]
+},
+{
+  "_id": "bb1c51b5-150b-4af3-98da-1db9f405bcaa",
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "name": "STORE_LEADS",
+  "sections": [
+    {
+      "name": "CRM_SETTING",
+      "id": "9c7dc604-2c7c-44ac-a1b5-116ed82e2809"
+    }
+  ]
+},
+{
+  "_id": "be8bddbe-4e29-4ce3-bf53-54b2537d7451",
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "name": "TENANT_CREATION"
+},
+{
+  "_id": "29805f1b-63ac-4bbd-80e1-e905355f6cef",
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "name": "CREATE_TENANT_W_W_S",
+  "sections": [
+    {
+      "name": "CREATE_TENANT_W_W_S_CONFIGURE_YOUR_MESSAGING_QUEUE",
+      "id": "d35f2b69-36a0-4f48-a851-2705159237b1"
+    }
+  ]
+},
+{
+  "_id": "0621de3e-6ccc-4275-9fe5-0228c792a0ab",
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "name": "CREATE_TENANT_CONFIRM_ACKNOWLEDGE",
+  "sections": [
+    {
+      "name": "CREATE_TENANT_CONFIRM_ACKNOWLEDGE_STEALTH_SAAS_MESSAGING_QUEUE",
+      "id": "e5293290-0256-472e-9e27-cf637261d09a"
+    }
+  ]
+},
+{
+  "_id": "d984b6bc-1989-4ceb-bf9b-d2caaa55937b",
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "name": "CUSTOMER_NOTIFY",
+  "sections": [
+    {
+      "name": "CUSTOMER_NOTIFY_EMAIL_PROVIDER",
+      "id": "5904a698-a6a4-4ec8-a2e0-1334ac506bdb"
+    }
+  ]
+},
+{
+  "_id": "279c8aa8-d36f-48a9-9962-d817ab4b099f",
+  "features": [
+    "85a5d371-f9c5-491f-912c-3effaac9d084"
+  ],
+  "name": "INTERNAL_NOTIFY",
+  "sections": [
+    {
+      "name": "INTERNAL_NOTIFY_CONFIGURE_CUSTOMER_NOTIFICATION",
+      "id": "5a18cd47-947f-4986-bc79-02b263aeea75"
+    }
+  ]
+}]

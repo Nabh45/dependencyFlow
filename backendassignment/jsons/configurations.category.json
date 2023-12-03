@@ -1,0 +1,87 @@
+[{
+  "_id": "8dfeb486-13f4-4eef-bfcd-8c491ed86df4",
+  "is_multi_feature": true,
+  "is_shareable": true,
+  "name": "IDP"
+},
+{
+  "_id": "4886c3da-49b2-490c-89aa-a73817849f7b",
+  "is_multi_feature": true,
+  "is_shareable": true,
+  "name": "SURGE_PROTECT"
+},
+{
+  "_id": "2bbe7101-9144-41fd-b2ca-584b75446c7c",
+  "is_multi_feature": true,
+  "is_shareable": true,
+  "name": "REDIRECTION"
+},
+{
+  "_id": "a9f6febc-31f3-4ee1-b02b-49962d5ce716",
+  "is_multi_feature": true,
+  "is_shareable": true,
+  "name": "APP_ROLES"
+},
+{
+  "_id": "4dd61b49-c5f2-4ea2-8683-823e04f41564",
+  "is_multi_feature": true,
+  "is_shareable": true,
+  "name": "APP_PRICING"
+},
+{
+  "_id": "466e9a5c-dbe7-4c48-8fe8-f3b1eb84d0db",
+  "is_multi_feature": true,
+  "is_shareable": true,
+  "name": "NOTIFICATION"
+},
+{
+  "_id": "6a405218-db66-4c21-8fb0-89fc38558591",
+  "is_multi_feature": true,
+  "is_shareable": true,
+  "name": "BRANDING"
+},
+{
+  "_id": "bea6ec1a-3872-4415-918b-561c2a5aff4c",
+  "is_multi_feature": true,
+  "is_shareable": true,
+  "name": "ENRICHMENT"
+},
+{
+  "_id": "55d3391b-0bd3-4e35-9ede-879dd3f95143",
+  "is_multi_feature": true,
+  "is_shareable": true,
+  "name": "ONBOARDING"
+},
+{
+  "_id": "a1345e60-31d6-11ee-be56-0242ac120002",
+  "is_multi_feature": true,
+  "is_shareable": true,
+  "name": "CRM"
+},
+{
+  "_id": "a7257b91-b965-4702-9005-174ec097c280",
+  "is_multi_feature": true,
+  "is_shareable": true,
+  "name": "TENANT"
+},
+{
+  "_id": "c987bcdd-e700-4d58-babb-b985bdf60630",
+  "is_multi_feature": true,
+  "is_shareable": false,
+  "name": "DOMAIN"
+},
+{
+  "_id": "1b4e88ae-f1b2-41b3-b0f0-6ac5f8c1974f",
+  "name": "QA",
+  "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002"
+},
+{
+  "_id": "5dc15867-3ce9-4d85-b874-0d4560a18507",
+  "name": "UAT",
+  "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002"
+},
+{
+  "_id": "e1e175b5-126c-4dcc-82be-53b7ade83f20",
+  "name": "PROD",
+  "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002"
+}]
