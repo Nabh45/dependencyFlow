@@ -16,16 +16,23 @@ import {getEnvironmentList,} from '../../configurationService'
 // Constants
 import { NODE_TYPES,MINI_MAP_STYLE } from './configurationWorkflow.constants';
 
+// Components
+import CustomModal from '../customModal'
+
 // Styles
 import 'reactflow/dist/style.css';
 
 function ConfigurationWorkflow() {
-  const [filters, setFilters] = useState({})
-  const selectedIds = useRef({})
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const [nodes, setNodes, onNodesChange] = useNodesState([]);
   const [edges, setEdges, onEdgesChange] = useEdgesState([]);
-  const onConnect = useCallback((params) => setEdges((els) => addEdge(params, els)), []);
   const currentCategoryWithConfig = useRef({})
+  const selectedIds = useRef({})
+  const variableInfo = useRef([])
+
+
+
+  const onConnect = useCallback((params) => setEdges((els) => addEdge(params, els)), []);
 
   useEffect(() => {
      const fetchEnvironments = async () => {
@@ -36,11 +43,14 @@ function ConfigurationWorkflow() {
     fetchEnvironments();
   },[])
 
-
   const onNodeClick = async (event, node) => {
-    const {nodes=[], edges=[]} = await getUpdatedNodesAndEdges(node,selectedIds,currentCategoryWithConfig);
-    setNodes((prevNodes) => {
-      const updatedPrevNodes = getUpdatedPrevNodes(prevNodes,node)
+    if(node.data.category === 'configuration') {
+      variableInfo.current = node?.data?.value?.properties || [];
+      return setIsModalOpen(true);
+    }
+      const {nodes=[], edges=[]} = await getUpdatedNodesAndEdges(node,selectedIds,currentCategoryWithConfig);
+      setNodes((prevNodes) => {
+        const updatedPrevNodes = getUpdatedPrevNodes(prevNodes,node)
       return [...updatedPrevNodes, ...nodes]
     });
     setEdges((prevEdges) => {
@@ -49,7 +59,6 @@ function ConfigurationWorkflow() {
   }
 
   return (
-    // <div style={{ height: '500px', width: '100%', overflow: 'hidden' }}>
       <ReactFlow
         nodes={nodes}
         edges={edges}
@@ -68,9 +77,8 @@ function ConfigurationWorkflow() {
       <MiniMap style={MINI_MAP_STYLE} zoomable pannable />
       <Controls />
       <Background color="#aaa" gap={16} />
-
+      {isModalOpen && <CustomModal closeModal={() => setIsModalOpen(false)} isOpen={true} title='Heading Title' content={variableInfo.current}/>}
       </ReactFlow>
-    // </div>
     )
 }
 
