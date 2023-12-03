@@ -22,7 +22,7 @@ const CustomModal = ({ isOpen, closeModal, title, content }) => {
       className="Modal"
     >
       <div>
-        <h2>{title}</h2>
+        <h2>{content.title}</h2>
         <div>{getContent(content.data)}</div>
         <button onClick={closeModal}>&#10006;</button>
       </div>

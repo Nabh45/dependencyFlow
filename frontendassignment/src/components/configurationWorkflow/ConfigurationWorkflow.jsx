@@ -74,7 +74,7 @@ function ConfigurationWorkflow() {
       <MiniMap style={MINI_MAP_STYLE} zoomable pannable />
       <Controls />
       <Background color="#aaa" gap={16} />
-      {isModalOpen && <CustomModal closeModal={() => setIsModalOpen(false)} isOpen={true} title='Heading Title' content={variableInfo.current}/>}
+      {isModalOpen && <CustomModal closeModal={() => setIsModalOpen(false)} isOpen={true} content={variableInfo.current}/>}
       </ReactFlow>
     )
 }
