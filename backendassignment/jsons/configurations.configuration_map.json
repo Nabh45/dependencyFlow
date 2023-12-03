@@ -14,7 +14,8 @@
   "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
   "properties": {
     "type": "",
-    "data": "[{\"key\":\"roleConfig\",\"value\":\"1234\",\"isSensitive\":false},{\"key\":\"roles_table\",\"value\":\"ADMIN\",\"isSensitive\":false}]"
+    "title": "Variable",
+    "data": {"pricing": 1234,"Pricing table": "Free Trial"}
   },
   "section_id": "530bbb43-6a1a-45e1-8c99-fa479917c788",
   "sub_features": [
@@ -39,7 +40,8 @@
   "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
   "properties": {
     "type": "",
-    "data": "[{\"key\":\"page_url\",\"value\":\"https://app.thrivestackdemo.live/onboarding\",\"isSensitive\":false}]"
+    "title": "Variable",
+    "data": {"pricing": 1234,"Pricing table": "Free Trial"}
   },
   "section_id": "9672dabf-d3ae-454a-a9e1-ec3736f5d37f",
   "sub_features": [
@@ -64,7 +66,8 @@
   "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
   "properties": {
     "type": "",
-    "data": "[{\"key\":\"allowed_new_user_count\",\"value\":\"100\",\"isSensitive\":false},{\"key\":\"customize_email_template_signature\",\"value\":\"admin@thrivestack.com\",\"isSensitive\":false}]"
+    "title": "Variable",
+    "data": {"pricing": 1234,"Pricing table": "Free Trial"}
   },
   "section_id": "3ba31014-a605-4ebb-bbc1-46c205ff4207",
   "sub_features": [
@@ -89,7 +92,8 @@
   "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
   "properties": {
     "type": "",
-    "data": "[{\"key\":\"signup_page\",\"value\":\"\",\"isSensitive\":false},{\"key\":\"signup_template\",\"value\":\"https://i.ibb.co/LrMHGSf/signup-template.png\",\"isSensitive\":false}]"
+    "title": "Variable",
+    "data": {"pricing": 1234,"Pricing table": "Free Trial"}
   },
   "section_id": "77bc9368-0dd4-4c5f-b346-a07d28b9d7c0",
   "sub_features": [
@@ -114,7 +118,8 @@
   "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
   "properties": {
     "type": "",
-    "data": "[{\"key\":\"pricing\",\"value\":\"1234\",\"isSensitive\":false},{\"key\":\"pricing_table\",\"value\":\"Free Trial\",\"isSensitive\":false}]"
+    "title": "Variable",
+    "data": {"pricing": 1234,"Pricing table": "Free Trial"}
   },
   "section_id": "69308ef0-26eb-4bf2-bd73-e95dcf7e4b63",
   "sub_features": [
@@ -139,7 +144,8 @@
   "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
   "properties": {
     "type": "",
-    "data": "[{\"key\":\"pricing\",\"value\":\"1234\",\"isSensitive\":false},{\"key\":\"pricing_table\",\"value\":\"Free Trial\",\"isSensitive\":false}]"
+    "title": "Variable",
+    "data": {"pricing": 1234,"Pricing table": "Free Trial"}
   },
   "section_id": "7ae72d51-c27a-4c58-a6b0-9ffca949faa3",
   "sub_features": [
@@ -164,7 +170,8 @@
   "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
   "properties": {
     "type": "",
-    "data": "[{\"key\":\"endpoint_url\",\"value\":\"\",\"isSensitive\":false},{\"key\":\"aws_region\",\"value\":\"\",\"isSensitive\":false},{\"key\":\"queue_url\",\"value\":\"\",\"isSensitive\":false}]"
+    "title": "Variable",
+    "data": {"pricing": 1234,"Pricing table": "Free Trial"}
   },
   "section_id": "e5293290-0256-472e-9e27-cf637261d09a",
   "sub_features": [
@@ -188,8 +195,9 @@
   "name": "STORE_LEADS_CONFIG#1",
   "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
   "properties": {
-    "type": "HUBSPOT",
-    "data": "[{\"key\":\"api_key\",\"value\":null,\"isSensitive\":true},{\"key\":\"secret_path\",\"value\":\"saas-dev-builder-secrets-manager\",\"isSensitive\":false},{\"key\":\"owner_id\",\"value\":null,\"isSensitive\":false}]"
+    "type": "",
+    "title": "Variable",
+    "data": {"pricing": 1234,"Pricing table": "Free Trial"}
   },
   "section_id": "9c7dc604-2c7c-44ac-a1b5-116ed82e2809",
   "sub_features": [
@@ -213,8 +221,9 @@
   "name": "ENRICH_USER_CONFIG#1",
   "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
   "properties": {
-    "type": "PEOPLE_DATA_LABS",
-    "data": "[{\"key\":\"api_key\",\"value\":null,\"isSensitive\":true},{\"key\":\"source\",\"value\":null,\"isSensitive\":false},{\"key\":\"integration\",\"value\":\"PEOPLE_DATA_LABS\",\"isSensitive\":false}]"
+    "type": "",
+    "title": "Variable",
+    "data": {"pricing": 1234,"Pricing table": "Free Trial"}
   },
   "section_id": "5490e22c-00c2-492e-8ba4-38ea534fe68d",
   "sub_features": [
@@ -238,8 +247,9 @@
   "name": "CUSTOMER_NOTIFY_CONFIG#1",
   "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
   "properties": {
-    "type": "SENDGRID",
-    "data": "[{\"key\":\"api_key\",\"value\":null,\"isSensitive\":true},{\"key\":\"cta_url\",\"value\":null,\"isSensitive\":false},{\"key\":\"integration\",\"value\":\"SENDGRID\",\"isSensitive\":false}]"
+    "type": "",
+    "title": "Variable",
+    "data": {"pricing": 1234,"Pricing table": "Free Trial"}
   },
   "section_id": "5904a698-a6a4-4ec8-a2e0-1334ac506bdb",
   "sub_features": [
@@ -263,8 +273,9 @@
   "name": "ENRICH_ORG_CONFIG#1",
   "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
   "properties": {
-    "type": "PEOPLE_DATA_LABS",
-    "data": "[{\"key\":\"api_key\",\"value\":null,\"isSensitive\":true},{\"key\":\"source\",\"value\":null,\"isSensitive\":false},{\"key\":\"integration\",\"value\":\"PEOPLE_DATA_LABS\",\"isSensitive\":false}]"
+    "type": "",
+    "title": "Variable",
+    "data": {"pricing": 1234,"Pricing table": "Free Trial"}
   },
   "section_id": "ded32b46-bb4e-43f4-829c-e70c6ca5c42b",
   "sub_features": [
@@ -288,8 +299,9 @@
   "name": "SIGNUP_IDP_CONFIG#1",
   "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
   "properties": {
-    "type": "AUTH0",
-    "data": "[{\"key\":\"client_id\",\"value\":null,\"isSensitive\":true},{\"key\":\"api_origin\",\"value\":\"https://thrivestack.com\",\"isSensitive\":false},{\"key\":\"app_origin\",\"value\":\"https://thrivestack.com\",\"isSensitive\":false},{\"key\":\"idp_tenant_name\",\"value\":\"Thrive\",\"isSensitive\":false},{\"key\":\"client_secret\",\"value\":null,\"isSensitive\":true},{\"key\":\"secret_path\",\"value\":\"saas-dev-builder-secrets-manager\",\"isSensitive\":false},{\"key\":\"domain_url\",\"value\":\"dev-gequbn3bq1ty0dkm.us.auth0.com\",\"isSensitive\":false},{\"key\":\"integration\",\"value\":\"AUTH0\",\"isSensitive\":false}]"
+    "type": "",
+    "title": "Variable",
+    "data": {"pricing": 1234,"Pricing table": "Free Trial"}
   },
   "section_id": "dfc0721b-1141-4044-88a5-ec9d0bd79d4d",
   "sub_features": [
@@ -313,8 +325,9 @@
   "name": "CREATE_TENANT_W_W_S_CONFIG#1",
   "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
   "properties": {
-    "type": "AWS_SQS",
-    "data": "[{\"key\":\"endpoint_url\",\"value\":\"aws.com\",\"isSensitive\":false},{\"key\":\"aws_region\",\"value\":\"ap-south-1\",\"isSensitive\":false},{\"key\":\"access_key_id\",\"value\":null,\"isSensitive\":true},{\"key\":\"secret_access_key\",\"value\":null,\"isSensitive\":true},{\"key\":\"secret_path\",\"value\":\"saas-dev-builder-secrets-manager\",\"isSensitive\":false},{\"key\":\"queue_url\",\"value\":\"https://sqs.ap-south-1.amazonaws.com/831467024484/saas-dev-sqs-queue\",\"isSensitive\":false},{\"key\":\"delay_seconds\",\"value\":10,\"isSensitive\":false},{\"key\":\"payload\",\"value\":null,\"isSensitive\":false},{\"key\":\"integration\",\"value\":\"AWS_SQS\",\"isSensitive\":false}]"
+    "type": "",
+    "title": "Variable",
+    "data": {"pricing": 1234,"Pricing table": "Free Trial"}
   },
   "section_id": "d35f2b69-36a0-4f48-a851-2705159237b1",
   "sub_features": [
@@ -338,8 +351,9 @@
   "name": "AuthIdp Config",
   "product_id": "d6027d52-5e8e-11ee-ac87-323063306243",
   "properties": {
-    "type": "AUTH0",
-    "data": "[{\"key\":\"integration\",\"value\":null,\"isSensitive\":false},{\"key\":\"idp_tenant_name\",\"value\":null,\"isSensitive\":false},{\"key\":\"domain_url\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_id\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_secret\",\"value\":null,\"isSensitive\":true},{\"key\":\"app_origin\",\"value\":null,\"isSensitive\":false},{\"key\":\"api_origin\",\"value\":null,\"isSensitive\":false}]"
+    "type": "",
+    "title": "Variable",
+    "data": {"pricing": 1234,"Pricing table": "Free Trial"}
   },
   "section_id": "dfc0721b-1141-4044-88a5-ec9d0bd79d4d",
   "sub_features": [
@@ -364,7 +378,8 @@
   "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
   "properties": {
     "type": "",
-    "data": "[{\"key\":\"redirect_url\",\"value\":\"https://app.thrivestackdemo.live\",\"isSensitive\":false}]"
+    "title": "Variable",
+    "data": {"pricing": 1234,"Pricing table": "Free Trial"}
   },
   "section_id": "3d5ced0a-1936-4720-9ead-8331e896e90a",
   "sub_features": [
@@ -389,7 +404,8 @@
   "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
   "properties": {
     "type": "",
-    "data": "[{\"key\":\"error_page_template\",\"value\":\"https://i.ibb.co/whfQcDF/error-template.png\",\"isSensitive\":false}]"
+    "title": "Variable",
+    "data": {"pricing": 1234,"Pricing table": "Free Trial"}
   },
   "section_id": "f1884314-7869-4c25-85f9-28409e73d891",
   "sub_features": [
@@ -414,7 +430,8 @@
   "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
   "properties": {
     "type": "",
-    "data": "[{\"key\":\"trigger_type\",\"value\":\"\",\"isSensitive\":false},{\"key\":\"sandbox_url\",\"value\":\"\",\"isSensitive\":false}]"
+    "title": "Variable",
+    "data": {"pricing": 1234,"Pricing table": "Free Trial"}
   },
   "section_id": "062ecaa2-fe6d-4d75-a719-b7af12f99990",
   "sub_features": [
@@ -439,7 +456,8 @@
   "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
   "properties": {
     "type": "",
-    "data": "[{\"key\":\"domainName\",\"value\":\"https://auth.thrivestackdemo.live\",\"isSensitive\":false},{\"key\":\"hostLabelForVerification\",\"value\":\"\",\"isSensitive\":false},{\"key\":\"destinationTargetForVerification\",\"value\":\"\",\"isSensitive\":false},{\"key\":\"hostLabelForDestination\",\"value\":\"\",\"isSensitive\":false},{\"key\":\"destinationTargetForDestination\",\"value\":\"\",\"isSensitive\":false},{\"key\":\"path\",\"value\":\"\",\"isSensitive\":false},{\"key\":\"payload\",\"value\":\"\",\"isSensitive\":false}]"
+    "title": "Variable",
+    "data": {"pricing": 1234,"Pricing table": "Free Trial"}
   },
   "section_id": "b53e1d11-1593-43c7-99fc-5b4a35f1b939",
   "sub_features": [
@@ -464,7 +482,8 @@
   "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
   "properties": {
     "type": "",
-    "data": "[{\"key\":\"messageTitle\",\"value\":\"\",\"isSensitive\":false},{\"key\":\"subtitle\",\"value\":\"\",\"isSensitive\":false},{\"key\":\"buttonText\",\"value\":\"\",\"isSensitive\":false}]"
+    "title": "Variable",
+    "data": {"pricing": 1234,"Pricing table": "Free Trial"}
   },
   "section_id": "8bf10f75-d3f6-410d-b241-b22cbf183b7c",
   "sub_features": [
@@ -488,8 +507,9 @@
   "name": "1",
   "product_id": "c06ccf25-5e99-11ee-ac87-323063306243",
   "properties": {
-    "type": "PEOPLE_DATA_LABS",
-    "data": "[{\"key\":\"integration\",\"value\":\"PEOPLE_DATA_LABS\",\"isSensitive\":false},{\"key\":\"source\",\"value\":\"\",\"isSensitive\":false},{\"key\":\"attributes\",\"value\":[],\"isSensitive\":false},{\"key\":\"api_key\",\"value\":\"f433eaff-f978-4b00-9c2a-2e6457cd605a_api_key\",\"isSensitive\":true}]"
+    "type": "",
+    "title": "Variable",
+    "data": {"pricing": 1234,"Pricing table": "Free Trial"}
   },
   "section_id": "5490e22c-00c2-492e-8ba4-38ea534fe68d",
   "sub_features": [
@@ -514,7 +534,8 @@
   "product_id": "e5ecf992-36b6-11ee-be56-0242ac120002",
   "properties": {
     "type": "",
-    "data": "[{\"key\":\"allowed_new_tenant_count\",\"value\":\"100\",\"isSensitive\":false},{\"key\":\"customize_email_template_signature\",\"value\":\"admin@thrivestack.com\",\"isSensitive\":false}]"
+    "title": "Variable",
+    "data": {"pricing": 1234,"Pricing table": "Free Trial"}
   },
   "section_id": "e21aead5-430c-4a78-b6e6-70153ef21b35",
   "sub_features": [
@@ -538,8 +559,9 @@
   "name": "test",
   "product_id": "1a5248b8-5e9a-11ee-ac87-323063306243",
   "properties": {
-    "type": "AUTH0",
-    "data": "[{\"key\":\"integration\",\"value\":null,\"isSensitive\":false},{\"key\":\"idp_tenant_name\",\"value\":null,\"isSensitive\":false},{\"key\":\"domain_url\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_id\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_secret\",\"value\":null,\"isSensitive\":true},{\"key\":\"app_origin\",\"value\":null,\"isSensitive\":false},{\"key\":\"api_origin\",\"value\":null,\"isSensitive\":false}]"
+    "type": "",
+    "title": "Variable",
+    "data": {"pricing": 1234,"Pricing table": "Free Trial"}
   },
   "section_id": "dfc0721b-1141-4044-88a5-ec9d0bd79d4d",
   "sub_features": [
@@ -563,8 +585,9 @@
   "name": "config_1",
   "product_id": "1a5248b8-5e9a-11ee-ac87-323063306243",
   "properties": {
-    "type": "AUTH0",
-    "data": "[{\"key\":\"integration\",\"value\":null,\"isSensitive\":false},{\"key\":\"idp_tenant_name\",\"value\":1,\"isSensitive\":false},{\"key\":\"domain_url\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_id\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_secret\",\"value\":null,\"isSensitive\":true},{\"key\":\"app_origin\",\"value\":null,\"isSensitive\":false},{\"key\":\"api_origin\",\"value\":null,\"isSensitive\":false}]"
+    "type": "",
+    "title": "Variable",
+    "data": {"pricing": 1234,"Pricing table": "Free Trial"}
   },
   "section_id": "dfc0721b-1141-4044-88a5-ec9d0bd79d4d",
   "sub_features": [
@@ -588,8 +611,9 @@
   "name": "test1",
   "product_id": "020a52e5-5e8d-11ee-ac87-323063306243",
   "properties": {
-    "type": "AUTH0",
-    "data": "[{\"key\":\"integration\",\"value\":null,\"isSensitive\":false},{\"key\":\"idp_tenant_name\",\"value\":1,\"isSensitive\":false},{\"key\":\"domain_url\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_id\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_secret\",\"value\":null,\"isSensitive\":true},{\"key\":\"app_origin\",\"value\":null,\"isSensitive\":false},{\"key\":\"api_origin\",\"value\":null,\"isSensitive\":false}]"
+    "type": "",
+    "title": "Variable",
+    "data": {"pricing": 1234,"Pricing table": "Free Trial"}
   },
   "section_id": "dfc0721b-1141-4044-88a5-ec9d0bd79d4d",
   "sub_features": [
@@ -613,8 +637,9 @@
   "name": "testi",
   "product_id": "020a52e5-5e8d-11ee-ac87-323063306243",
   "properties": {
-    "type": "AUTH0",
-    "data": "[{\"key\":\"integration\",\"value\":null,\"isSensitive\":false},{\"key\":\"idp_tenant_name\",\"value\":1,\"isSensitive\":false},{\"key\":\"domain_url\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_id\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_secret\",\"value\":null,\"isSensitive\":true},{\"key\":\"app_origin\",\"value\":null,\"isSensitive\":false},{\"key\":\"api_origin\",\"value\":null,\"isSensitive\":false}]"
+    "type": "",
+    "title": "Variable",
+    "data": {"pricing": 1234,"Pricing table": "Free Trial"}
   },
   "section_id": "dfc0721b-1141-4044-88a5-ec9d0bd79d4d",
   "sub_features": [
@@ -638,8 +663,9 @@
   "name": "t",
   "product_id": "020a52e5-5e8d-11ee-ac87-323063306243",
   "properties": {
-    "type": "AUTH0",
-    "data": "[{\"key\":\"integration\",\"value\":null,\"isSensitive\":false},{\"key\":\"idp_tenant_name\",\"value\":1,\"isSensitive\":false},{\"key\":\"domain_url\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_id\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_secret\",\"value\":null,\"isSensitive\":true},{\"key\":\"app_origin\",\"value\":null,\"isSensitive\":false},{\"key\":\"api_origin\",\"value\":null,\"isSensitive\":false}]"
+    "type": "",
+    "title": "Variable",
+    "data": {"pricing": 1234,"Pricing table": "Free Trial"}
   },
   "section_id": "dfc0721b-1141-4044-88a5-ec9d0bd79d4d",
   "sub_features": [
@@ -664,7 +690,8 @@
   "product_id": "cecd52b4-5ea5-11ee-ac87-323063306243",
   "properties": {
     "type": "",
-    "data": "[{\"key\":\"page_url\",\"value\":\"https://acme.com\",\"isSensitive\":false},{\"key\":\"payload\",\"value\":[{\"isDisabled\":true,\"key\":\"userId\",\"value\":\"{{workflow.userId}}\"},{\"isDisabled\":true,\"key\":\"workflowId\",\"value\":\"{{workflow.workflowID}}\"},{\"isDisabled\":true,\"key\":\"runtimeId\",\"value\":\"{{workflow.runtimeId}}\"},{\"isDisabled\":true,\"key\":\"returnUrl\",\"value\":\"{{workflow.returnUrl}}\"},{\"isDisabled\":true,\"key\":\"env\",\"value\":\"{{workflow.env}}\"}],\"isSensitive\":false}]"
+    "title": "Variable",
+    "data": {"pricing": 1234,"Pricing table": "Free Trial"}
   },
   "section_id": "",
   "sub_features": [
@@ -688,8 +715,9 @@
   "name": "1",
   "product_id": "",
   "properties": {
-    "type": "AUTH0",
-    "data": "[{\"key\":\"integration\",\"value\":null,\"isSensitive\":false},{\"key\":\"idp_tenant_name\",\"value\":1,\"isSensitive\":false},{\"key\":\"domain_url\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_id\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_secret\",\"value\":null,\"isSensitive\":true},{\"key\":\"app_origin\",\"value\":1,\"isSensitive\":false},{\"key\":\"api_origin\",\"value\":1,\"isSensitive\":false}]"
+    "type": "",
+    "title": "Variable",
+    "data": {"pricing": 1234,"Pricing table": "Free Trial"}
   },
   "section_id": "dfc0721b-1141-4044-88a5-ec9d0bd79d4d",
   "sub_features": [
@@ -713,8 +741,9 @@
   "name": "sd",
   "product_id": "",
   "properties": {
-    "type": "AUTH0",
-    "data": "[{\"key\":\"integration\",\"value\":null,\"isSensitive\":false},{\"key\":\"idp_tenant_name\",\"value\":1,\"isSensitive\":false},{\"key\":\"domain_url\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_id\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_secret\",\"value\":null,\"isSensitive\":true},{\"key\":\"app_origin\",\"value\":null,\"isSensitive\":false},{\"key\":\"api_origin\",\"value\":null,\"isSensitive\":false}]"
+    "type": "",
+    "title": "Variable",
+    "data": {"pricing": 1234,"Pricing table": "Free Trial"}
   },
   "section_id": "dfc0721b-1141-4044-88a5-ec9d0bd79d4d",
   "sub_features": [
@@ -738,8 +767,9 @@
   "name": "xx",
   "product_id": "",
   "properties": {
-    "type": "AUTH0",
-    "data": "[{\"key\":\"integration\",\"value\":null,\"isSensitive\":false},{\"key\":\"idp_tenant_name\",\"value\":1,\"isSensitive\":false},{\"key\":\"domain_url\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_id\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_secret\",\"value\":null,\"isSensitive\":true},{\"key\":\"app_origin\",\"value\":null,\"isSensitive\":false},{\"key\":\"api_origin\",\"value\":null,\"isSensitive\":false}]"
+    "type": "",
+    "title": "Variable",
+    "data": {"pricing": 1234,"Pricing table": "Free Trial"}
   },
   "section_id": "dfc0721b-1141-4044-88a5-ec9d0bd79d4d",
   "sub_features": [
@@ -764,7 +794,8 @@
   "product_id": "",
   "properties": {
     "type": "",
-    "data": "[{\"key\":\"integration\",\"value\":null,\"isSensitive\":false},{\"key\":\"idp_tenant_name\",\"value\":1,\"isSensitive\":false},{\"key\":\"domain_url\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_id\",\"value\":null,\"isSensitive\":false},{\"key\":\"client_secret\",\"value\":null,\"isSensitive\":true},{\"key\":\"app_origin\",\"value\":1,\"isSensitive\":false},{\"key\":\"api_origin\",\"value\":1,\"isSensitive\":false}]"
+    "title": "Variable",
+    "data": {"pricing": 1234,"Pricing table": "Free Trial"}
   },
   "section_id": "b53e1d11-1593-43c7-99fc-5b4a35f1b939",
   "sub_features": [

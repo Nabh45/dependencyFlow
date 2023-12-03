@@ -12,9 +12,18 @@ export const getFeaturesForEnv = async (environmentId) => {
   return features;
 };
 
-export const getSubfeaturesForEnv = async (featureId, environmentId) => {
+export const getSubfeaturesForEnv = async (
+  featureId,
+  environmentId,
+  limit,
+  lastIndex
+) => {
+  const queryParams = new URLSearchParams({
+    limit: limit,
+    lastIndex: lastIndex,
+  });
   const response = await fetch(
-    `${BASE_URL}/subfeature/${featureId}/${environmentId}`
+    `${BASE_URL}/subfeature/${featureId}/${environmentId}?${queryParams}`
   );
   const subfeature = await response.json();
   return subfeature;

@@ -11,7 +11,7 @@ app.use(cors());
 const port = 2221;
 
 const getFilteredData = ({ source, key, q }) => {
-  if (q.trim()) {
+  if (q?.trim()) {
     return source.filter((item) => item[key].startsWith(q));
   }
   return source;
@@ -28,7 +28,11 @@ app.get("/env", (req, res) => {
 });
 
 app.get("/feature/:environmentId", (req, res) => {
+  const limit = +req.query.limit || 5;
+  const lastIndex = +req.query.lastIndex || 0;
+
   const environmentId = req.params.environmentId;
+
   if (!environmentId.trim()) {
     return FEATURES;
   }
@@ -44,7 +48,13 @@ app.get("/feature/:environmentId", (req, res) => {
       name: feature.name,
     };
   });
-  res.send(result);
+
+  const finalResponse = {
+    data: result.splice(lastIndex, limit),
+    hasMore: result.length > lastIndex + limit,
+    lastIndex: lastIndex + limit,
+  };
+  res.send(finalResponse);
 });
 
 app.get("/subfeature/:featureId/:environmentId", (req, res) => {
@@ -76,7 +86,7 @@ app.get("/subfeature/:featureId/:environmentId", (req, res) => {
   });
   const finalResponse = {
     data: result.splice(lastIndex, limit),
-    hasMore: result.length !== lastIndex + limit,
+    hasMore: result.length > lastIndex + limit,
     lastIndex: lastIndex + limit,
   };
   res.send(finalResponse);

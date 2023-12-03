@@ -32,27 +32,26 @@ export const NODE_EDGE_CONFIG_MAP_FOR_LOAD_MORE = {
   environment: {
     id: "vertical-e0-",
     target: "horizontal-0-",
-    category: "environment",
   },
   features: {
     id: "vertical-e1-",
     target: "horizontal-1-",
-    category: "features",
+    category: "envrionment",
   },
   subfeatures: {
     id: "vertical-e2-",
     target: "horizontal-2-",
-    category: "subfeatures",
+    category: "features",
   },
   category: {
     id: "vertical-e3-",
     target: "horizontal-3-",
-    category: "category",
+    category: "subfeatures",
   },
   configurations: {
     id: "vertical-e4-",
     target: "horizontal-4-",
-    category: "configurations",
+    category: "category",
   },
 };
 

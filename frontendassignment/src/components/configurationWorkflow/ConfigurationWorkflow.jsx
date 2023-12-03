@@ -14,7 +14,7 @@ import { getUpdatedNodesAndEdges,createNodes,getUpdatedPrevNodes,getUpdatedPrevE
 import {getEnvironmentList,} from '../../configurationService'
 
 // Constants
-import { NODE_TYPES,MINI_MAP_STYLE } from './configurationWorkflow.constants';
+import { MINI_MAP_STYLE } from './configurationWorkflow.constants';
 
 // Components
 import CustomModal from '../customModal'
@@ -29,8 +29,6 @@ function ConfigurationWorkflow() {
   const currentCategoryWithConfig = useRef({})
   const selectedIds = useRef({})
   const variableInfo = useRef([])
-
-
 
   const onConnect = useCallback((params) => setEdges((els) => addEdge(params, els)), []);
 
@@ -55,7 +53,7 @@ function ConfigurationWorkflow() {
     });
     setEdges((prevEdges) => {
       const updatedPrevEdges = getUpdatedPrevEdges(prevEdges, node);
-      return[...updatedPrevEdges, ...edges]});
+      return [...updatedPrevEdges, ...edges]});
   }
 
   return (
@@ -72,7 +70,6 @@ function ConfigurationWorkflow() {
         zoomOnPinch={false}
         zoomOnDoubleClick={false}
         elementsSelectable={false} 
-        nodeTypes={NODE_TYPES}
       >
       <MiniMap style={MINI_MAP_STYLE} zoomable pannable />
       <Controls />
