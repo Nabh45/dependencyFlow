@@ -1,8 +1,3 @@
-// Components
-import EnvironmentNode from "./components/environment/EnvironmentNode";
-
-export const NODE_TYPES = { environmentNode: EnvironmentNode };
-
 export const NODE_STYLES = {
   background: "#2B6CB0",
   color: "white",
@@ -33,6 +28,34 @@ export const NODE_EDGE_CONFIG_MAP = {
   },
 };
 
+export const NODE_EDGE_CONFIG_MAP_FOR_LOAD_MORE = {
+  environment: {
+    id: "vertical-e0-",
+    target: "horizontal-0-",
+    category: "environment",
+  },
+  features: {
+    id: "vertical-e1-",
+    target: "horizontal-1-",
+    category: "features",
+  },
+  subfeatures: {
+    id: "vertical-e2-",
+    target: "horizontal-2-",
+    category: "subfeatures",
+  },
+  category: {
+    id: "vertical-e3-",
+    target: "horizontal-3-",
+    category: "category",
+  },
+  configurations: {
+    id: "vertical-e4-",
+    target: "horizontal-4-",
+    category: "configurations",
+  },
+};
+
 export const PREVIOUS_NODE_TO_NODE_MAP = {
   default: {
     id: "horizontal-0-",
@@ -43,7 +66,7 @@ export const PREVIOUS_NODE_TO_NODE_MAP = {
   environment: { id: "horizontal-1-", x: 400, y: 150, category: "features" },
   features: { id: "horizontal-2-", x: 800, y: 150, category: "subfeatures" },
   subfeatures: { id: "horizontal-3-", x: 1200, y: 150, category: "category" },
-  category: { id: "horizontal-4-", x: 1500, y: 150, category: "configiration" },
+  category: { id: "horizontal-4-", x: 1500, y: 150, category: "configuration" },
 };
 
 export const MINI_MAP_STYLE = {
