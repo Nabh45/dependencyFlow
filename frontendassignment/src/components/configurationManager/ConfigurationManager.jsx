@@ -23,7 +23,7 @@ function ConfigurationManager() {
     <div id='innerContainer'>
       <h1>Configuration Manager</h1>
       <ConfigurationSummary />
-      <ConfigurationFilter />
+      {/* <ConfigurationFilter /> */}
     </div>
     <div id='workFlow' style={{height: workflowHeight}}>
   <ConfigurationWorkflow />
