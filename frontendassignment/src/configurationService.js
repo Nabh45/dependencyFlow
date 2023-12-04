@@ -1,15 +1,33 @@
 export const BASE_URL = "http://localhost:2221";
 
+const handleErrors = async (response) => {
+  if (!response.ok) {
+    const errorData = await response.json();
+    throw new Error(
+      `HTTP error! Status: ${response.status}, Message: ${errorData.message}`
+    );
+  }
+  return response.json();
+};
+
 export const getEnvironmentList = async () => {
-  const response = await fetch(`${BASE_URL}/env`);
-  const environmentList = await response.json();
-  return environmentList;
+  try {
+    const response = await fetch(`${BASE_URL}/env`);
+    return handleErrors(response);
+  } catch (error) {
+    console.error("Error in getEnvironmentList:", error);
+    throw error;
+  }
 };
 
 export const getFeaturesForEnv = async (environmentId) => {
-  const featuresJson = await fetch(`${BASE_URL}/feature/${environmentId}`);
-  const features = await featuresJson.json();
-  return features;
+  try {
+    const response = await fetch(`${BASE_URL}/feature/${environmentId}`);
+    return handleErrors(response);
+  } catch (error) {
+    console.error("Error in getFeaturesForEnv:", error);
+    throw error;
+  }
 };
 
 export const getSubfeaturesForEnv = async (
@@ -18,15 +36,19 @@ export const getSubfeaturesForEnv = async (
   limit,
   lastIndex
 ) => {
-  const queryParams = new URLSearchParams({
-    limit: limit,
-    lastIndex: lastIndex,
-  });
-  const response = await fetch(
-    `${BASE_URL}/subfeature/${featureId}/${environmentId}?${queryParams}`
-  );
-  const subfeature = await response.json();
-  return subfeature;
+  try {
+    const queryParams = new URLSearchParams({
+      limit: limit,
+      lastIndex: lastIndex,
+    });
+    const response = await fetch(
+      `${BASE_URL}/subfeature/${featureId}/${environmentId}?${queryParams}`
+    );
+    return handleErrors(response);
+  } catch (error) {
+    console.error("Error in getSubfeaturesForEnv:", error);
+    throw error;
+  }
 };
 
 export const getConfigWithCategory = async ({
@@ -34,9 +56,13 @@ export const getConfigWithCategory = async ({
   subfeatureId,
   envId,
 }) => {
-  const response = await fetch(
-    `${BASE_URL}/category&subFeature/${envId}/${featureId}/${subfeatureId}`
-  );
-  const data = await response.json();
-  return data;
+  try {
+    const response = await fetch(
+      `${BASE_URL}/category&subFeature/${envId}/${featureId}/${subfeatureId}`
+    );
+    return handleErrors(response);
+  } catch (error) {
+    console.error("Error in getConfigWithCategory:", error);
+    throw error;
+  }
 };
