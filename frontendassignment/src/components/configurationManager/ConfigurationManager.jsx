@@ -15,7 +15,7 @@ function ConfigurationManager() {
 
   useEffect(() => {
     const height = document.getElementById('innerContainer')?.offsetHeight;
-    let workFlowHeight = window.innerHeight - height;
+    let workFlowHeight = window.innerHeight - height-100;
     setWorkFlowHeight(workFlowHeight)
   },[])
 

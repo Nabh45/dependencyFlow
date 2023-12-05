@@ -6,6 +6,7 @@ import {
   NODE_CATEGORY_MAPPING,
   EDGE_CATEGORY_MAPPING,
   NODE_EDGE_CONFIG_MAP_FOR_LOAD_MORE,
+  LOAD_MORE_STYLE,
 } from "./configurationWorkflow.constants";
 
 // Services
@@ -37,7 +38,7 @@ const getFetchMoreNode = ({
     previousNodeId,
   },
   position: { x: x, y: y + 150 },
-  style: NODE_STYLES,
+  style: LOAD_MORE_STYLE,
 });
 
 const addNodesToExisting = (node, newNodes, hasMore, lastIndex) => {

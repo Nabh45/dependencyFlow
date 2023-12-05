@@ -1,9 +1,17 @@
 export const NODE_STYLES = {
-  background: "#2B6CB0",
-  color: "white",
+  color: "black",
   overflowWrap: "break-word",
   width: "250px",
 };
+
+export const LOAD_MORE_STYLE = {
+  color: "white",
+  background: "#2d75c7",
+  overflowWrap: "break-word",
+  width: "250px",
+};
+
+export const SELECTED_BACKGROUND = "#ffcd25";
 
 export const NODE_EDGE_CONFIG_MAP = {
   environment: {
