@@ -140,17 +140,18 @@ const createEdges = (node, list, hasMore) => {
   return edges;
 };
 
-const updateSelectedIds = (currentSelectedIds, key, value) => {
-  const currentValue = currentSelectedIds.current;
-  currentSelectedIds.current = { ...currentValue, [key]: value };
+const updateSelectedIds = (selectedNodeDetails, key, value) => {
+  const currentValue = selectedNodeDetails.current.selectedIds;
+  selectedNodeDetails.current.selectedIds = { ...currentValue, [key]: value };
 };
 
 const getNextNodesAndEdges = async (
   node,
-  selectedIds,
+  selectedNodeDetails,
   currentCategoryWithConfig
 ) => {
   const category = node.data.category;
+  const selectedIds = selectedNodeDetails.current.selectedIds;
   let currentSelectedIdKey;
   let nodes;
   let edges;
@@ -168,7 +169,7 @@ const getNextNodesAndEdges = async (
       currentSelectedIdKey = "featureId";
       const { data, hasMore, lastIndex } = await getSubfeaturesForEnv(
         node.data.value._id,
-        selectedIds.current.environmentId
+        selectedIds.environmentId
       );
       nodes = createNodes(data, node.data, hasMore, lastIndex, node.id);
       edges = createEdges(node, nodes);
@@ -177,9 +178,9 @@ const getNextNodesAndEdges = async (
     case "subfeatures":
       currentSelectedIdKey = "subFeatureId";
       const categoryWithConfig = await getConfigWithCategory({
-        featureId: selectedIds.current.featureId,
+        featureId: selectedIds.featureId,
         subfeatureId: node.data.value._id,
-        envId: selectedIds.current.environmentId,
+        envId: selectedIds.environmentId,
       });
       currentCategoryWithConfig.current = categoryWithConfig;
       nodes = createNodes(categoryWithConfig?.categoryInfo, node.data);
@@ -192,7 +193,11 @@ const getNextNodesAndEdges = async (
       edges = createEdges(node, uniqueNamesAndProperties);
       break;
   }
-  updateSelectedIds(selectedIds, currentSelectedIdKey, node.data.value._id);
+  updateSelectedIds(
+    selectedNodeDetails,
+    currentSelectedIdKey,
+    node.data.value._id
+  );
   return { nodes, edges };
 };
 
@@ -201,8 +206,8 @@ const createLoadMoreNodes = async (node, selectedIds) => {
   switch (category) {
     case "subfeatures": {
       const { data, hasMore, lastIndex } = await getSubfeaturesForEnv(
-        selectedIds.current.featureId,
-        selectedIds.current.environmentId,
+        selectedIds.featureId,
+        selectedIds.environmentId,
         5,
         node.data.lastIndex
       );
@@ -215,13 +220,18 @@ const createLoadMoreNodes = async (node, selectedIds) => {
 
 export const getUpdatedNodesAndEdges = async (
   node,
-  selectedIds,
+  selectedNodeDetails,
   currentCategoryWithConfig
 ) => {
   const hasMoreNodeClicked = node.data.fetchMoreDataNode;
+  const selectedIds = selectedNodeDetails.current.selectedIds;
 
   if (!hasMoreNodeClicked) {
-    return getNextNodesAndEdges(node, selectedIds, currentCategoryWithConfig);
+    return getNextNodesAndEdges(
+      node,
+      selectedNodeDetails,
+      currentCategoryWithConfig
+    );
   } else {
     return createLoadMoreNodes(node, selectedIds);
   }
@@ -244,4 +254,36 @@ export const getUpdatedPrevEdges = (prevEdges, node) => {
     categories.includes(item.category)
   );
   return updatedEdges;
+};
+
+const removeHighlightedNodes = (selectedNodeData) =>
+  selectedNodeData.forEach(
+    (item) =>
+      (document.querySelector(`[data-id=${item.id}]`).style.background =
+        "white")
+  );
+
+export const updateSelectedNodeDetails = (node = {}, selectedNodeDetails) => {
+  const { category } = node?.data;
+  const categories = EDGE_CATEGORY_MAPPING?.[node.data.category] || [
+    "environment",
+    "features",
+    "subfeatures",
+    "category",
+  ];
+  const selectedNodeData = selectedNodeDetails.current.selectedNodeData;
+  removeHighlightedNodes(selectedNodeData);
+  const updatedData = selectedNodeData.filter((item) =>
+    categories.includes(item.data.category)
+  );
+  selectedNodeDetails.current.selectedNodeData = [...updatedData, node];
+};
+
+export const hightlightSelectedNodes = (selectedNodeDetails) => {
+  const selectedNodeData = selectedNodeDetails.current.selectedNodeData;
+  selectedNodeData.forEach(
+    (item) =>
+      (document.querySelector(`[data-id=${item.id}]`).style.background =
+        "#ffb3b3")
+  );
 };

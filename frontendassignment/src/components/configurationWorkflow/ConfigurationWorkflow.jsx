@@ -8,7 +8,7 @@ import ReactFlow, {
 } from 'reactflow';
 
 // Helpers
-import { getUpdatedNodesAndEdges,createNodes,getUpdatedPrevNodes,getUpdatedPrevEdges} from "./configurationWorkflow.helpers";
+import { getUpdatedNodesAndEdges,hightlightSelectedNodes,updateSelectedNodeDetails,createNodes,getUpdatedPrevNodes,getUpdatedPrevEdges} from "./configurationWorkflow.helpers";
 
 // Services
 import {getEnvironmentList,} from '../../configurationService'
@@ -26,9 +26,10 @@ function ConfigurationWorkflow() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [nodes, setNodes, onNodesChange] = useNodesState([]);
   const [edges, setEdges, onEdgesChange] = useEdgesState([]);
-  const currentCategoryWithConfig = useRef({})
-  const selectedIds = useRef({})
-  const variableInfo = useRef([])
+  const currentCategoryWithConfig = useRef({});
+  const variableInfo = useRef([]);
+  const selectedNodeDetails = useRef({selectedIds: {}, selectedNodeData: []})
+
 
   const onConnect = useCallback((params) => setEdges((els) => addEdge(params, els)), []);
 
@@ -42,11 +43,13 @@ function ConfigurationWorkflow() {
   },[])
 
   const onNodeClick = async (event, node) => {
+    updateSelectedNodeDetails(node, selectedNodeDetails)
     if(node.data.category === 'configuration') {
       variableInfo.current = node?.data?.value?.properties || [];
+      hightlightSelectedNodes(selectedNodeDetails)
       return setIsModalOpen(true);
     }
-      const {nodes=[], edges=[]} = await getUpdatedNodesAndEdges(node,selectedIds,currentCategoryWithConfig);
+      const {nodes=[], edges=[]} = await getUpdatedNodesAndEdges(node,selectedNodeDetails,currentCategoryWithConfig);
       setNodes((prevNodes) => {
         const updatedPrevNodes = getUpdatedPrevNodes(prevNodes,node)
       return [...updatedPrevNodes, ...nodes]
