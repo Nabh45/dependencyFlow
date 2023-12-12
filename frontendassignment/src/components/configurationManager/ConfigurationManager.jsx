@@ -1,3 +1,5 @@
+import { useEffect, useState } from 'react';
+
 // Components
 import ConfigurationSummary from '../configurationSummary'
 import ConfigurationFilter from '../configurationFilter';
@@ -5,7 +7,6 @@ import ConfigurationWorkflow from '../configurationWorkflow';
 
 // styles
 import './styles.css';
-import { useEffect, useState } from 'react';
 
 function ConfigurationManager() {
 
