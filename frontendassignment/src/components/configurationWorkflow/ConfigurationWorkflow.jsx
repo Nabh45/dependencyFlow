@@ -4,7 +4,7 @@ import ReactFlow, {
   MiniMap,
   Controls,
   Background,
-  useNodesState, useEdgesState, addEdge
+  addEdge
 } from 'reactflow';
 
 // Helpers
@@ -22,10 +22,11 @@ import CustomModal from '../customModal'
 // Styles
 import 'reactflow/dist/style.css';
 
-function ConfigurationWorkflow() {
+function ConfigurationWorkflow(props) {
+  
+  const {nodes, edges,setNodes, setEdges, onNodesChange, onEdgesChange } =  props;
+  
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [nodes, setNodes, onNodesChange] = useNodesState([]);
-  const [edges, setEdges, onEdgesChange] = useEdgesState([]);
   const currentCategoryWithConfig = useRef({});
   const variableInfo = useRef([]);
   const selectedNodeDetails = useRef({selectedIds: {}, selectedNodeData: []})

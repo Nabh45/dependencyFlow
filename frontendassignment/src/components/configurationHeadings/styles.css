@@ -1,0 +1,10 @@
+.headings {
+    display: flex;
+    align-items: center;
+    gap:6%;
+}
+
+.heading {
+    width: 15%;
+    text-align: center;
+}

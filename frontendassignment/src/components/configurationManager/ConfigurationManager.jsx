@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react';
+import{ useNodesState, useEdgesState } from 'reactflow';
 
 // Components
 import ConfigurationSummary from '../configurationSummary'
-import ConfigurationFilter from '../configurationFilter';
 import ConfigurationWorkflow from '../configurationWorkflow';
+import ConfigurationHeadings from '../configurationHeadings';
+
 
 // styles
 import './styles.css';
@@ -11,8 +13,8 @@ import './styles.css';
 function ConfigurationManager() {
 
   const [workflowHeight, setWorkFlowHeight] = useState(0);
-  const [workFlowValues, updateWorkFlowValues] = [{environments: [], features: [], subFeatures: [], category: [], configurations: []}]
-  const [filters, setFilters] = useState([])
+  const [nodes, setNodes, onNodesChange] = useNodesState([]);
+  const [edges, setEdges, onEdgesChange] = useEdgesState([]);
 
   useEffect(() => {
     const height = document.getElementById('innerContainer')?.offsetHeight;
@@ -25,9 +27,10 @@ function ConfigurationManager() {
       <h1>Configuration Manager</h1>
       <ConfigurationSummary />
       {/* <ConfigurationFilter /> */}
+      <ConfigurationHeadings nodes={nodes}/>
     </div>
     <div id='workFlow' style={{height: workflowHeight}}>
-  <ConfigurationWorkflow />
+  <ConfigurationWorkflow nodes={nodes} edges={edges} setNodes={setNodes} setEdges={setEdges} onNodesChange={onNodesChange} onEdgesChange={onEdgesChange}/>
     </div>
     
   </div>
