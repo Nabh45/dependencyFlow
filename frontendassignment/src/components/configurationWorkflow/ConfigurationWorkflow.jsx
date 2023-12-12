@@ -11,7 +11,7 @@ import ReactFlow, {
 import { getUpdatedNodesAndEdges,hightlightSelectedNodes,updateSelectedNodeDetails,createNodes,getUpdatedPrevNodes,getUpdatedPrevEdges} from "./configurationWorkflow.helpers";
 
 // Services
-import {getEnvironmentList,} from '../../configurationService'
+import {getEnvironmentList,} from '../../services/configurationService'
 
 // Constants
 import { MINI_MAP_STYLE } from './configurationWorkflow.constants';

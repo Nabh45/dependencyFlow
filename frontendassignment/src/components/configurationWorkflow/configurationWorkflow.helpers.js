@@ -14,7 +14,7 @@ import {
   getFeaturesForEnv,
   getSubfeaturesForEnv,
   getConfigWithCategory,
-} from "../../configurationService";
+} from "../../services/configurationService";
 
 const getFetchMoreNode = ({
   lastIndex,
