@@ -133,6 +133,7 @@ const createEdges = (node, list, hasMore) => {
       type: "smoothstep",
       target: `${config.target}${index}`,
       category: config.category,
+      animated: true,
     };
     index++;
     return obj;
