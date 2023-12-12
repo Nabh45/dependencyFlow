@@ -1,5 +1,5 @@
 export const HEADINGS = {
-  environment: "Envrionment",
+  environment: "Environment",
   features: "Features",
   subfeatures: "Sub Features",
   category: "Category",
