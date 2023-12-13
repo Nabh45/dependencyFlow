@@ -13,7 +13,7 @@ const getContent = content => (
   </div>
 );
 
-const CustomModal = ({ isOpen, closeModal, title, content }) => {
+const CustomModal = ({ isOpen, closeModal, content }) => {
   return (
     <Modal
       isOpen={isOpen}

@@ -1,5 +1,6 @@
 // Library
 import { useEffect, useRef, useState, useCallback } from "react";
+import PropTypes from 'prop-types';
 import ReactFlow, {
   MiniMap,
   Controls,
@@ -27,6 +28,7 @@ function ConfigurationWorkflow(props) {
   const {nodes, edges,setNodes, setEdges, onNodesChange, onEdgesChange } =  props;
   
   const [isModalOpen, setIsModalOpen] = useState(false);
+  
   const currentCategoryWithConfig = useRef({});
   const variableInfo = useRef([]);
   const selectedNodeDetails = useRef({selectedIds: {}, selectedNodeData: []})
@@ -82,5 +84,24 @@ function ConfigurationWorkflow(props) {
       </ReactFlow>
     )
 }
+
+ConfigurationWorkflow.defaultProps = {
+  nodes: [],
+  edges: [],
+  setNodes: () => {},
+  setEdges: () => {},
+  onNodesChange: () => {},
+  onEdgesChange: () => {},
+};
+
+ConfigurationWorkflow.propTypes = {
+  nodes: PropTypes.array,
+  edges: PropTypes.array,
+  setNodes: PropTypes.func,
+  setEdges: PropTypes.func,
+  onNodesChange: PropTypes.func,
+  onEdgesChange: PropTypes.func,
+};
+
 
 export default ConfigurationWorkflow;

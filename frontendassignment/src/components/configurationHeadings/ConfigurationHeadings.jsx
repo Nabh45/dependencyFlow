@@ -1,15 +1,16 @@
+// Library
+import PropTypes from 'prop-types';
+
 // Contants
 import { useMemo } from 'react';
-import {HEADINGS} from './configurationHeadings.constants'
+
+// Helpers
+import {getNodesCategory} from './configurationHeadings.helpers'
 
 // Styles
 import './styles.css'
 
-const getNodesCategory = nodes => {
-    const nodeSet = new Set();
-    nodes.forEach((node) => nodeSet.add(HEADINGS[node.data.category]))
-    return Array.from(nodeSet);
-}
+
 
 function ConfigurationHeadings(props) {
 
@@ -17,7 +18,12 @@ function ConfigurationHeadings(props) {
 
     const nodesCategoryArray = useMemo(() => getNodesCategory(nodes), [nodes])
 
-    return <div className='headings'>{nodesCategoryArray.map((heading) => <h2 className='heading'>{heading}</h2>)}</div>
+    return <div className='headings'>{nodesCategoryArray.map((heading) => <h2 key={heading} className='heading'>{heading}</h2>)}</div>
 }
+
+ConfigurationHeadings.propTypes = {
+  nodes: PropTypes.array.isRequired,
+};
+
 
 export default ConfigurationHeadings;
